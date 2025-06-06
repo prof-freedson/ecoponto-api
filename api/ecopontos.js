@@ -1,5 +1,5 @@
-const EcopontoController = require("../src/controllers/ecopontoController");
-const db = require("../src/config/firebase");
+const EcopontoController = require("./ecopontoController");
+const db = require("../config/firebase");
 
 const ecopontoController = new EcopontoController(db);
 
